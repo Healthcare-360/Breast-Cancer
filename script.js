@@ -29,11 +29,11 @@ window.addEventListener("load",function(){
          console.log(file);
        
         //HTTP Post Request
-        var URL = "https://southcentralus.api.cognitive.microsoft.com/customvision/v3.0/Prediction/841fb9e4-f053-4c2e-b5a3-7f399c05cab4/classify/iterations/First%20Training/image";
+        var URL = "https://centralindia.api.cognitive.microsoft.com/customvision/v3.0/Prediction/1b33e038-ed35-489d-8e9b-bc651e05dbf5/classify/iterations/Iteration1/image";
         var xhr = new XMLHttpRequest();
         
         xhr.open('POST', URL, true);
-        xhr.setRequestHeader('Prediction-Key','f1e6eca4b5814aaea568f5b49711e2b7');
+        xhr.setRequestHeader('Prediction-Key','9f786ebaf15c4dfea557b5fb2412195e');
         xhr.setRequestHeader('Content-Type','application/octet-stream')
    
         
